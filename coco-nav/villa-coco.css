@@ -158,6 +158,13 @@ a:hover {
 	color: #090909;
 	border: 1px solid #CCC;
 }
+#table2 td {
+	font-size: 80%;
+	line-height: 1.2em;
+	padding: 3px;
+	color: #090909;
+	border: none;
+}
 #column_lft {
 	float: left;
 	width: 360px;
