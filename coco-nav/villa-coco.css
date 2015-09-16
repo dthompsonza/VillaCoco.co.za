@@ -20,6 +20,9 @@ a:hover {
 	color: #000000;
 	text-decoration: underline;
 }
+a.underline {
+	text-decoration: underline;
+}
 /*#wrapper {
 	width: 776px;
 	margin-right: auto;
