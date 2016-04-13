@@ -1,6 +1,52 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+  <!-- Banner changes -->
+    <link href='https://fonts.googleapis.com/css?family=Dosis:400,500,600,700' rel='stylesheet' type='text/css'>
+    <style type="text/css" media="screen">
+    .no-padding {
+      margin: 0; 
+      padding: 0;
+    }
+    #banner h1, #banner h2 {
+      font-family: 'Dosis', sans-serif;
+      color: yellow;
+      text-shadow: -1px 0 #1F6C42, 0 1px #1F6C42, 1px 0 #1F6C42, 0 -1px #1F6C42;
+    } 
+    #banner h3 {
+      color: #1F6C42;
+    }
+    a#bannerlink {
+      color: yellow;
+      text-shadow: -1px 0 #1F6C42, 0 1px #1F6C42, 1px 0 #1F6C42, 0 -1px #1F6C42;
+      xtext-decoration: none; /* no underline */
+    }
+    div#banner { 
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      background-color: #66ff66; 
+      width: 100%; 
+      min-height: 100px;
+    }
+    div#banner-content { 
+      width: 800px; 
+      margin: 0 auto; 
+      padding: 00px; 
+      border: 0px solid #000;
+      text-align: center;
+    }
+    div#main-content { 
+      padding-top: 70px;
+      }
+      #banner h2 {
+        letter-spacing: 2px;
+      }
+      #banner h3 {
+        letter-spacing: 1px;
+      }
+    </style>
+    <!-- /Banner changes -->
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Villa Coco Guesthouse</title>
 <meta name="Description" content="Villa Coco Guesthouse is located in Durban North. Simple in design, cool and relaxing, Villa Coco is the ideal spot for businessmen yet can also offer the tourist a central location to access the many attractions in the surrounding areas" />
@@ -48,6 +94,15 @@ table {
 
 </head>
 <body>
+<!-- Banner changes -->
+  <div id="banner">
+      <div id="banner-content">
+        <h1 class="no-padding">As of 1 May 2016 - Only Available For Long Stays</h1>
+        <h2 class="no-padding">Terms one month and more, enquire for rates <a id="bannerlink" href="enquiries.html">here</a></h2>
+        <h3 class="no-padding">Call 031 563 4855 or 078 456 4598 or 079 390 3838</h3>
+      </div>
+    </div>
+<!-- /Banner changes -->
 <div id="wrapper-top">
 <div id="headercontainer">
   <div id="header">
@@ -58,11 +113,11 @@ table {
   <div id="menu">
     <div id="navcontainer">
       <ul id="navlist">
-        <li><a title="home" href="index.html">home</a></li>
-        <li><a title="facilities" href="facilities.html">facilities</a></li>
-        <li><a title="rates" href="rates.html">rates</a></li>
-        <li><a title="enquiries" href="enquiries.html" id="current">enquiries</a></li>
-        <li><a title="map" href="map.html">map</a></li>
+        <li><a title="home" href="index.html#">home</a></li>
+        <li><a title="facilities" href="facilities.html#">facilities</a></li>
+        
+        <li><a title="enquiries" href="enquiries.html#" id="current">enquiries</a></li>
+        <li><a title="map" href="map.html#">map</a></li>
       </ul>
     </div>
   </div>
@@ -98,302 +153,7 @@ table {
           <td class="form_txt">cell :&nbsp;</td>
           <td align="left"><input name="cell" id="email2" type="text" tabindex="3" /></td>
         </tr>
-        <tr>
-          <td class="form_txt">country :&nbsp;</td>
-          <td align="left"><select name="select country" size="1">
-              <option value="South Africa" selected="selected">South Africa
-              <option value="Abu Dhabi">Abu Dhabi
-              <option value="Afghanistan">Afghanistan
-              <option value="Albania">Albania
-              <option value="Algeria">Algeria
-              <option value="Andorra">Andorra
-              <option value="Angola">Angola
-              <option value="Antigua">Antigua
-              <option value="Argentina">Argentina
-              <option value="Armenia">Armenia
-              <option value="Australia">Australia
-              <option value="Austria">Austria
-              <option value="Azerbaijan">Azerbaijan
-              <option value="Bahamas">Bahamas
-              <option value="Bahrain">Bahrain
-              <option value="Bangladesh">Bangladesh
-              <option value="Barbados">Barbados
-              <option value="Belarus">Belarus
-              <option value="Belgium">Belgium
-              <option value="Belize">Belize
-              <option value="Benin">Benin
-              <option value="Bermuda">Bermuda
-              <option value="Bhutan">Bhutan
-              <option value="Bolivia">Bolivia
-              <option value="Bosnia">Bosnia
-              <option value="Botswana">Botswana
-              <option value="Brazil">Brazil
-              <option value="Brunei">Brunei
-              <option value="Bulgaria">Bulgaria
-              <option value="Burkina Faso">Burkina Faso
-              <option value="Burundi">Burundi
-              <option value="Cambodia">Cambodia
-              <option value="Cameroun">Cameroun
-              <option value="Canada">Canada
-              <option value="Cape Verde Islands">Cape Verde Islands
-              <option value="Cayman Islands">Cayman Islands
-              <option value="Central African Republic">Central African Republic
-              <option value="Chad">Chad
-              <option value="Chile">Chile
-              <option value="China">China
-              <option value="Colombia">Colombia
-              <option value="Congo">Congo
-              <option value="Congo, Democr. Republic">Congo, Democr. Republic
-              <option value="Costa Rica">Costa Rica
-              <option value="Croatia">Croatia
-              <option value="Cyprus">Cyprus
-              <option value="Czech Republic">Czech Republic
-              <option value="Denmark">Denmark
-              <option value="Djibouti">Djibouti
-              <option value="Dominican Rep">Dominican Rep
-              <option value="Ecuador">Ecuador
-              <option value="Egypt">Egypt
-              <option value="El Salvador">El Salvador
-              <option value="Eritrea">Eritrea
-              <option value="Estonia">Estonia
-              <option value="Ethiopia">Ethiopia
-              <option value="Fiji">Fiji
-              <option value="Finland">Finland
-              <option value="France">France
-              <option value="French Polynesia">French Polynesia
-              <option value="Gabon">Gabon
-              <option value="Gambia">Gambia
-              <option value="Georgia">Georgia
-              <option value="Germany">Germany
-              <option value="Ghana">Ghana
-              <option value="Greece">Greece
-              <option value="Guadeloupe">Guadeloupe
-              <option value="Guatemala">Guatemala
-              <option value="Guinea">Guinea
-              <option value="Guyana">Guyana
-              <option value="Haiti">Haiti
-              <option value="Honduras">Honduras
-              <option value="Hong Kong">Hong Kong
-              <option value="Hungary">Hungary
-              <option value="Iceland">Iceland
-              <option value="India">India
-              <option value="Indonesia">Indonesia
-              <option value="Ireland">Ireland
-              <option value="Israel">Israel
-              <option value="Italy">Italy
-              <option value="Ivory Coast">Ivory Coast
-              <option value="Jamaica">Jamaica
-              <option value="Japan">Japan
-              <option value="Jordan">Jordan
-              <option value="Kazakhstan">Kazakhstan
-              <option value="Kenya">Kenya
-              <option value="Kirghizia">Kirghizia
-              <option value="Korea Republic Of">Korea Republic Of
-              <option value="Kuwait">Kuwait
-              <option value="Laos">Laos
-              <option value="Latvia">Latvia
-              <option value="Lebanon">Lebanon
-              <option value="Lesotho">Lesotho
-              <option value="Liberia">Liberia
-              <option value="Liechtenstein">Liechtenstein
-              <option value="Lithuania">Lithuania
-              <option value="Luxembourg">Luxembourg
-              <option value="Macau">Macau
-              <option value="Macedonia">Macedonia
-              <option value="Madagascar">Madagascar
-              <option value="Malawi">Malawi
-              <option value="Malaysia">Malaysia
-              <option value="Maldives">Maldives
-              <option value="Mali">Mali
-              <option value="Malta">Malta
-              <option value="Martinique">Martinique
-              <option value="Mauritania">Mauritania
-              <option value="Mauritius">Mauritius
-              <option value="Mexico">Mexico
-              <option value="Moldavia">Moldavia
-              <option value="Monaco">Monaco
-              <option value="Morocco">Morocco
-              <option value="Mozambique">Mozambique
-              <option value="Namibia">Namibia
-              <option value="Nepal">Nepal
-              <option value="Netherlands">Netherlands
-              <option value="Netherlands Antilles">Netherlands Antilles
-              <option value="New Caledonia">New Caledonia
-              <option value="New Zealand">New Zealand
-              <option value="Nicaragua">Nicaragua
-              <option value="Niger">Niger
-              <option value="Nigeria">Nigeria
-              <option value="Northern Yemen">Northern Yemen
-              <option value="Norway">Norway
-              <option value="Oman">Oman
-              <option value="Pakistan">Pakistan
-              <option value="Panama">Panama
-              <option value="Papua New Guinea">Papua New Guinea
-              <option value="Paraguay">Paraguay
-              <option value="Peru">Peru
-              <option value="Philippines">Philippines
-              <option value="Poland">Poland
-              <option value="Portugal">Portugal
-              <option value="Qatar">Qatar
-              <option value="Reunion">Reunion
-              <option value="Romania">Romania
-              <option value="Russia">Russia
-              <option value="Rwanda">Rwanda
-              <option value="Sao Tome Island">Sao Tome Island
-              <option value="Saudi Arabia">Saudi Arabia
-              <option value="Senegal">Senegal
-              <option value="Seychelles">Seychelles
-              <option value="Singapore">Singapore
-              <option value="Slovak Republic">Slovak Republic
-              <option value="Slovenia">Slovenia
-              <option value="Somalia">Somalia
-              <option value="Southern Yemen">Southern Yemen
-              <option value="Spain">Spain
-              <option value="Sri Lanka">Sri Lanka
-              <option value="St Kits">St Kits
-              <option value="St Lucia">St Lucia
-              <option value="St Maarten">St Maarten
-              <option value="St Vincent">St Vincent
-              <option value="Suriname">Suriname
-              <option value="Swaziland">Swaziland
-              <option value="Sweden">Sweden
-              <option value="Switzerland">Switzerland
-              <option value="Taiwan">Taiwan
-              <option value="Tajikistan">Tajikistan
-              <option value="Tanzania">Tanzania
-              <option value="Thailand">Thailand
-              <option value="Togo">Togo
-              <option value="Trinidad">Trinidad
-              <option value="Tunisia">Tunisia
-              <option value="Turkey">Turkey
-              <option value="Turkmenistan">Turkmenistan
-              <option value="Uganda">Uganda
-              <option value="Ukraine">Ukraine
-              <option value="United Arab Emirates">United Arab Emirates
-              <option value="United Kingdom">United Kingdom
-              <option value="United States">United States
-              <option value="Uruguay">Uruguay
-              <option value="Uzbekistan">Uzbekistan
-              <option value="Vatican City">Vatican City
-              <option value="Venezuela">Venezuela
-              <option value="Vietnam">Vietnam
-              <option value="Yemen">Yemen
-              <option value="Zambia">Zambia
-              <option value="Zimbabwe">Zimbabwe
-            </select>          </td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td align="left">&nbsp;</td>
-        </tr>
-        <tr>
-          <td class="form_txt">no of guests :&nbsp;</td>
-          <td align="left"><input name="guest_no" id="country" type="text" tabindex="3" /></td>
-        </tr>
-        <tr>
-          <td class="form_txt">day in :&nbsp;</td>
-          <td align="left"><select name="day_in">
-              <option value="select" selected="selected">select</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-              <option value="15">15</option>
-              <option value="16">16</option>
-              <option value="17">17</option>
-              <option value="18">18</option>
-              <option value="19">19</option>
-              <option value="20">20</option>
-              <option value="21">21</option>
-              <option value="22">22</option>
-              <option value="23">23</option>
-              <option value="24">24</option>
-              <option value="25">25</option>
-              <option value="26">26</option>
-              <option value="27">27</option>
-              <option value="28">28</option>
-              <option value="29">29</option>
-              <option value="30">30</option>
-              <option value="31">31</option>
-            </select>
-            <select name="month_in">
-              <option value="select" selected="selected">select</option>
-              <option value="January">January</option>
-              <option value="February">February</option>
-              <option value="March">March</option>
-              <option value="April">April</option>
-              <option value="May">May</option>
-              <option value="June">June</option>
-              <option value="July">July</option>
-              <option value="August">August</option>
-              <option value="September">September</option>
-              <option value="October">October</option>
-              <option value="November">November</option>
-              <option value="December">December</option>
-            </select></td>
-        </tr>
-        <tr>
-          <td class="form_txt">day out:&nbsp;</td>
-          <td align="left"><select name="day_out">
-              <option value="select" selected="selected">select</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-              <option value="15">15</option>
-              <option value="16">16</option>
-              <option value="17">17</option>
-              <option value="18">18</option>
-              <option value="19">19</option>
-              <option value="20">20</option>
-              <option value="21">21</option>
-              <option value="22">22</option>
-              <option value="23">23</option>
-              <option value="24">24</option>
-              <option value="25">25</option>
-              <option value="26">26</option>
-              <option value="27">27</option>
-              <option value="28">28</option>
-              <option value="29">29</option>
-              <option value="30">30</option>
-              <option value="31">31</option>
-            </select>
-            <select name="month_out">
-              <option value="select" selected="selected">select</option>
-              <option value="January">January</option>
-              <option value="February">February</option>
-              <option value="March">March</option>
-              <option value="April">April</option>
-              <option value="May">May</option>
-              <option value="June">June</option>
-              <option value="July">July</option>
-              <option value="August">August</option>
-              <option value="September">September</option>
-              <option value="October">October</option>
-              <option value="November">November</option>
-              <option value="December">December</option>
-            </select></td>
-        </tr>
+        
         <tr>
           <td class="form_txt">comments :&nbsp;</td>
           <td align="left"><textarea name="comments" cols="40" rows="10" id="comments" tabindex="40"></textarea></td>
